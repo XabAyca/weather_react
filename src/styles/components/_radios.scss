@@ -1,0 +1,28 @@
+.radios{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: beige;
+
+  & div{
+    margin: 10px;
+    color: #454545
+  }
+}
+
+.selectOff{
+  padding: 5px 20px;
+  display: block;
+  margin: 3px auto 0;
+  color: white;
+  background-color: red;
+  border: 2px solid red;
+  border-radius: 50px;
+  cursor: pointer;
+
+  &:hover{
+    color: red;
+    background-color: white;
+  }
+}
